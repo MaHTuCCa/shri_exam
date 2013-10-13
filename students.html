@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title></title>
+</head>
+<body>
+<div class="header">
+    <div>
+        <a class="menu_logo" href="">
+            <img alt="Яндекс" src="images/logo.png">
+        </a>
+    </div>
+
+    <ul class="menu">
+        <li class="active"><a href="#!/index">О ШРИ</a></li>
+        <li><a href="#!/users">Список участников</a></li>
+        <li><a href="#!/lections">Список лекций</a></li>
+        <li><a href="#!/lenta">FAQ</a></li>
+    </ul>
+</div>
+
+<div class="page">
+    <h3> Наши школьники:</h3>
+    <div id="student_template">
+        {{#student_list}}
+        <div style=" width:100%; height:1px; clear:both;"></div>
+        <div class="student_photo"><img src={{link_photo}} width="200"></div>
+        <div class="student_info"><div>Имя: {{first_name}}</div>
+            <div>Фамилия: {{last_name}}</div>
+            <div>Город: {{city}}</div>
+            <div>О себе: {{about}}</div>
+            <div style=" width:100%; height:1px; clear:both;"></div>
+            <div class="icons">
+                <a href="{{link_facebook}}"><img class="icon" src="../images/facebook.png"></a>
+            </div>
+            <div  class="icons">
+                <a href="{{link_vk}}"><img class="icon" src="../images/vk.png"></a>
+            </div>
+            <div class="icons">
+                <a href="{{link_gihub}}"><img class="icon" src="../images/github.png "></a>
+            </div>
+            <div class="icons">
+                <a href="{{link_yaru}}"><img class="icon" src="../images/yaru.png"></a>
+            </div>
+        </div>
+        <div style=" width:100%; height:1px; clear:both;"></div>
+        {{/student_list}}
+        <div style=" width:100%; height:1px; clear:both;"></div>
+
+    </div>
+</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/template-load.js"></script>
+
+</body>
+</html>

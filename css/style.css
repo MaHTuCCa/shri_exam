@@ -1,0 +1,143 @@
+body {
+    background: url("../images/bg.gif");
+    border-top:6px solid #8C2722;
+    padding: 0;
+    width: auto;
+    color: black;
+    font-family: Arial, Helvetica;
+    font-weight: normal;
+}
+
+.page {
+    display: block;
+    background: white;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 20px;
+}
+
+.header {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #EFE2BA;
+    border-color: #e7e7e7;
+}
+
+.hello_text {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display:block;
+    width:30px;
+    text-align: left;
+    padding-bottom:5px;
+    float:left;
+    padding-left:5px;
+
+}
+
+.icon {
+    margin: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.menu_students, .menu_lections, .menu_lectors {
+    width:32%;
+    height:40px;
+    background:#E3D3A7;
+    border: 1px;
+    border-color: #000000;
+    float:left;
+    margin-left: 7px;
+    font-family: Tahoma, Arial;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 10px;
+}
+
+.video-player {
+    float: right;
+    padding: 15px;
+}
+
+.menu {
+    display: block;
+    padding-left: 100px;
+    padding-top: 15px;
+
+}
+
+.menu_logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 150px;
+}
+
+.menu li {
+    float:left;
+    font:bold 12px Verdana, Arial ;
+}
+
+.menu a {
+    color:#602722;
+    display:block;
+    line-height:20px;
+    padding:0px 20px 0px 10px;
+    text-decoration:none;
+}
+
+.menu a:hover {
+    color:#fff;
+}
+
+.menu_lections a, .menu_lectors a, .menu_students a {
+    color: #8C2722;
+    text-decoration: none;
+}
+
+.menu_lections a:hover, .menu_lectors a:hover, .menu_students a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer {
+    height: 40px;
+    width: auto;
+    background-color: #EFE2BA;
+    padding: 15px;
+    color: gray;
+}
+
+#footer > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.student_photo {
+    display:block;
+    background:green;
+    width:200px;
+    text-align: left;
+    padding-bottom:10px;
+    float:left;
+    padding-left:5px;
+}
+
+.student_info {
+    display:block;
+    background:green;
+    width:580px;
+    text-align: left;
+    padding-bottom:10px;
+    float:right;
+
+}
