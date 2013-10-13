@@ -47,7 +47,6 @@ body {
     padding-bottom:5px;
     float:left;
     padding-left:5px;
-
 }
 
 .icon {
@@ -71,14 +70,15 @@ body {
 }
 
 .video-player {
-    float: left;
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 .menu {
     display: block;
     padding-left: 100px;
     padding-top: 15px;
-
 }
 
 .menu_logo {
@@ -117,11 +117,13 @@ body {
 }
 
 #footer {
-    height: 40px;
-    width: auto;
+    height: 30px;
+    width: 100%;
     background-color: #EFE2BA;
-    padding: 15px;
+    padding: 10px;
     color: gray;
+    position: fixed;
+    bottom: 0;
 }
 
 #footer > a {
@@ -132,7 +134,6 @@ body {
 
 .personal_photo {
     display:block;
-    background:green;
     width:200px;
     text-align: left;
     padding-bottom:10px;
@@ -142,7 +143,6 @@ body {
 
 .personal_info {
     display:block;
-    background:green;
     width:580px;
     text-align: left;
     padding-bottom:10px;
@@ -154,13 +154,12 @@ body {
 }
 
 .lection_info {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
 .lector_photo {
     display:block;
-    background:green;
     width:365px;
     text-align: left;
     padding-bottom:10px;
@@ -170,13 +169,12 @@ body {
 
 .lector_name {
     display:block;
-    background:green;
-    width:350px;
+    width:370px;
     text-align: left;
     padding-bottom:10px;
     padding-left: 20px;
-    margin-left: 20px;
-    float:left;
+    margin-left: 10px;
+    float:right;
 }
 
 .lection_info > a {
@@ -186,7 +184,6 @@ body {
 
 .list_icon {
     display:block;
-    background:green;
     width:10px;
     text-align: left;
     padding-bottom:10px;
@@ -197,7 +194,6 @@ body {
 
 .list_name {
     display:block;
-    background:green;
     width:400px;
     text-align: left;
     padding-bottom:10px;
