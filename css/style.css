@@ -27,6 +27,13 @@ body {
     border-color: #e7e7e7;
 }
 
+.header2 {
+    padding-bottom: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .hello_text {
     padding-top: 20px;
     padding-left: 10px;
@@ -64,8 +71,7 @@ body {
 }
 
 .video-player {
-    float: right;
-    padding: 15px;
+    float: left;
 }
 
 .menu {
@@ -93,6 +99,7 @@ body {
     line-height:20px;
     padding:0px 20px 0px 10px;
     text-decoration:none;
+    cursor: pointer;
 }
 
 .menu a:hover {
@@ -120,9 +127,10 @@ body {
 #footer > a {
     text-decoration: none;
     color: gray;
+    cursor: pointer;
 }
 
-.student_photo {
+.personal_photo {
     display:block;
     background:green;
     width:200px;
@@ -132,12 +140,84 @@ body {
     padding-left:5px;
 }
 
-.student_info {
+.personal_info {
     display:block;
     background:green;
     width:580px;
     text-align: left;
     padding-bottom:10px;
     float:right;
+}
 
+.templates {
+    display:none;
+}
+
+.lection_info {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.lector_photo {
+    display:block;
+    background:green;
+    width:365px;
+    text-align: left;
+    padding-bottom:10px;
+    float:left;
+    padding-left:5px;
+}
+
+.lector_name {
+    display:block;
+    background:green;
+    width:350px;
+    text-align: left;
+    padding-bottom:10px;
+    padding-left: 20px;
+    margin-left: 20px;
+    float:left;
+}
+
+.lection_info > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list_icon {
+    display:block;
+    background:green;
+    width:10px;
+    text-align: left;
+    padding-bottom:10px;
+    float:left;
+    padding-left:5px;
+    padding-top: 20px;
+}
+
+.list_name {
+    display:block;
+    background:green;
+    width:400px;
+    text-align: left;
+    padding-bottom:10px;
+    padding-left: 20px;
+    margin-left: 20px;
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lection > a {
+    color: blue;
+    text-decoration: none;
+}
+
+.name  > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lection > a:hover, .name > a:hover {
+    color: red;
 }
